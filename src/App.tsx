@@ -4,7 +4,7 @@ export default function App() {
 
     return (
         <>
-            <div className="w-screen h-screen">
+            <div className="w-screen h-screen bg-[#030517] overflow-hidden">
                 <RegistrationForm />
             </div>
         </>

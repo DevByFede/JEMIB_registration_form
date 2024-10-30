@@ -176,7 +176,10 @@ const RegistrationForm = () => {
         }
         else
         {
-            toast.error('Compile all fields below to continue the registration!');
+            toast.error('Compile all fields below to continue the registration!', {
+                duration: 4000,
+                position: 'top-center'
+            });
             setUser(defaultUser)
         }
     }
